@@ -1,0 +1,83 @@
+/* body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    background-color: #5b9bd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.box{
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 5px  solid black;
+    border-radius: 20px;
+    padding: 50px 100px;
+}
+h2{
+    text-align: center;
+}
+textarea{
+    height: 150px;
+    width: 250px;
+    text-align: ;
+}
+button{
+    background-color:#F8F8F2
+    height : 50px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.03);
+} */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    background-color: #5b9bd5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    background-color: #f0f4f8;
+    text-align: center;
+    border: 5px solid black; /* Fixed the border syntax */
+    border-radius: 20px;
+    padding: 50px 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+textarea {
+    height: 150px;
+    width: 250px;
+    text-align: left; /* Added a default text-align */
+}
+
+button {
+    background-color: #F8F8F2; /* Added missing semicolon */
+    height: 50px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
